@@ -6,3 +6,6 @@ body {background-color:#4287f5 ; color:ffffff}
 a:link{color:#29ff49}
 a:visited{color:#bd180f}
 a:hover{color:#ebf531}
+
+ul li{opacity:.75}
+ol+li{color:red}

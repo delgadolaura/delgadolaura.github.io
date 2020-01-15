@@ -1,6 +1,6 @@
 var f;
 for (f = 0; f < 9; f++) {
-  var ans=Math.pow(2,f)
+  var ans=Math.sqrt(2,f)
   document.write(ans +"<br>");
 }
 

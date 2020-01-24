@@ -13,6 +13,7 @@ while(count<8){
 function myLoop(){
 var start= document.getElementById("start").value;
 var end = document.getElementById("end").value;
+var end = document.getElementById("jump").value;
 jump = Number(jump);
 start = Number(start);
 end = Number(end);

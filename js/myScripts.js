@@ -13,7 +13,12 @@ while(count<8){
 function myLoop(){
 var start= document.getElementById("start").value;
 var end = document.getElementById("end").value;
-  console.log(start);
+jump = Number(jump);
+start = Number(start);
+end = Number(end);
+console.log(typeof jump);
+console.log(typeof start);  
+console.log(typeof end);
 for(var i = start; i <= end; i++)
 {document.write('<p>' + i + '</p>');
 }

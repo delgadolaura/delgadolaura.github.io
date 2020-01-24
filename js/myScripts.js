@@ -20,7 +20,7 @@ end = Number(end);
 console.log(typeof jump);
 console.log(typeof start);  
 console.log(typeof end);
-for(var i = start; i <= end; i++)
+for(var i = start; i <= end; i+=jump)
 {document.write('<p>' + i + '</p>');
 }
 }
